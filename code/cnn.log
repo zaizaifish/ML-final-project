@@ -1,0 +1,590 @@
+Parameter Setting:  0
+{'learning_rate': 0.01, 'num_epochs': 10, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  16.737453997135162
+Epoch  1 Loss:  16.26523667573929
+Epoch  2 Loss:  15.865236759185791
+Epoch  3 Loss:  16.265236914157867
+Epoch  4 Loss:  15.865236639976501
+Epoch  5 Loss:  16.26523667573929
+Epoch  6 Loss:  15.865236818790436
+Epoch  7 Loss:  16.665236711502075
+Epoch  8 Loss:  16.265236794948578
+Epoch  9 Loss:  15.86523699760437
+Training time: 11.803845643997192
+val acc:  tensor(0.5000, device='cuda:0')
+Parameter Setting:  1
+{'learning_rate': 0.01, 'num_epochs': 10, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -10.10290876030922
+Epoch  1 Loss:  -9.600000157952309
+Epoch  2 Loss:  -9.600000128149986
+Epoch  3 Loss:  -10.400000095367432
+Epoch  4 Loss:  -10.400000102818012
+Epoch  5 Loss:  -10.000000059604645
+Epoch  6 Loss:  -10.000000171363354
+Epoch  7 Loss:  -10.400000110268593
+Epoch  8 Loss:  -10.400000125169754
+Epoch  9 Loss:  -10.000000223517418
+Training time: 3.0124828815460205
+val acc:  tensor(0.5000, device='cuda:0')
+Parameter Setting:  2
+{'learning_rate': 0.01, 'num_epochs': 20, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  16.34794855117798
+Epoch  1 Loss:  16.265236973762512
+Epoch  2 Loss:  16.265236914157867
+Epoch  3 Loss:  16.665236800909042
+Epoch  4 Loss:  16.66523677110672
+Epoch  5 Loss:  16.265236973762512
+Epoch  6 Loss:  16.265236616134644
+Epoch  7 Loss:  15.86523699760437
+Epoch  8 Loss:  16.26523667573929
+Epoch  9 Loss:  15.86523711681366
+Epoch  10 Loss:  15.865236937999725
+Epoch  11 Loss:  16.66523677110672
+Epoch  12 Loss:  16.265236884355545
+Epoch  13 Loss:  16.665236949920654
+Epoch  14 Loss:  15.865236937999725
+Epoch  15 Loss:  16.265236914157867
+Epoch  16 Loss:  15.865236818790436
+Epoch  17 Loss:  15.865236818790436
+Epoch  18 Loss:  16.265236616134644
+Epoch  19 Loss:  16.66523653268814
+Training time: 6.148566961288452
+val acc:  tensor(0.5000, device='cuda:0')
+Parameter Setting:  3
+{'learning_rate': 0.01, 'num_epochs': 20, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -9.780272364616394
+Epoch  1 Loss:  -9.600000083446503
+Epoch  2 Loss:  -9.600000143051147
+Epoch  3 Loss:  -10.400000125169754
+Epoch  4 Loss:  -10.00000011920929
+Epoch  5 Loss:  -10.000000149011612
+Epoch  6 Loss:  -9.99999999254942
+Epoch  7 Loss:  -9.600000083446503
+Epoch  8 Loss:  -10.000000044703484
+Epoch  9 Loss:  -10.000000081956387
+Epoch  10 Loss:  -10.000000149011612
+Epoch  11 Loss:  -10.000000193715096
+Epoch  12 Loss:  -10.000000089406967
+Epoch  13 Loss:  -9.600000143051147
+Epoch  14 Loss:  -10.000000149011612
+Epoch  15 Loss:  -10.000000178813934
+Epoch  16 Loss:  -10.000000149011612
+Epoch  17 Loss:  -9.600000068545341
+Epoch  18 Loss:  -10.000000163912773
+Epoch  19 Loss:  -9.600000031292439
+Training time: 6.248832941055298
+val acc:  tensor(0.5000, device='cuda:0')
+Parameter Setting:  4
+{'learning_rate': 0.01, 'num_epochs': 30, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  15.304532170295715
+Epoch  1 Loss:  15.722461998462677
+Epoch  2 Loss:  16.265236973762512
+Epoch  3 Loss:  16.265236735343933
+Epoch  4 Loss:  16.665236830711365
+Epoch  5 Loss:  16.265237003564835
+Epoch  6 Loss:  16.265236914157867
+Epoch  7 Loss:  16.265236854553223
+Epoch  8 Loss:  16.665236830711365
+Epoch  9 Loss:  15.865236461162567
+Epoch  10 Loss:  15.865236461162567
+Epoch  11 Loss:  16.66523677110672
+Epoch  12 Loss:  15.865237057209015
+Epoch  13 Loss:  16.265236794948578
+Epoch  14 Loss:  16.66523653268814
+Epoch  15 Loss:  16.265236735343933
+Epoch  16 Loss:  16.265236735343933
+Epoch  17 Loss:  16.2652368247509
+Epoch  18 Loss:  15.865236639976501
+Epoch  19 Loss:  16.26523721218109
+Epoch  20 Loss:  16.665236234664917
+Epoch  21 Loss:  15.865236669778824
+Epoch  22 Loss:  15.865236908197403
+Epoch  23 Loss:  16.265236914157867
+Epoch  24 Loss:  16.665236741304398
+Epoch  25 Loss:  16.66523677110672
+Epoch  26 Loss:  16.26523655653
+Epoch  27 Loss:  16.265236616134644
+Epoch  28 Loss:  16.66523677110672
+Epoch  29 Loss:  15.865236580371857
+Training time: 9.589452743530273
+val acc:  tensor(0.5000, device='cuda:0')
+Parameter Setting:  5
+{'learning_rate': 0.01, 'num_epochs': 30, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -9.815681889653206
+Epoch  1 Loss:  -10.000000163912773
+Epoch  2 Loss:  -10.40000008046627
+Epoch  3 Loss:  -10.000000208616257
+Epoch  4 Loss:  -10.00000013411045
+Epoch  5 Loss:  -10.000000193715096
+Epoch  6 Loss:  -10.400000154972076
+Epoch  7 Loss:  -10.000000104308128
+Epoch  8 Loss:  -10.000000193715096
+Epoch  9 Loss:  -10.00000011920929
+Epoch  10 Loss:  -10.400000095367432
+Epoch  11 Loss:  -10.00000013411045
+Epoch  12 Loss:  -9.600000083446503
+Epoch  13 Loss:  -10.400000162422657
+Epoch  14 Loss:  -10.000000149011612
+Epoch  15 Loss:  -10.00000013411045
+Epoch  16 Loss:  -10.000000193715096
+Epoch  17 Loss:  -10.400000110268593
+Epoch  18 Loss:  -10.000000163912773
+Epoch  19 Loss:  -10.000000052154064
+Epoch  20 Loss:  -10.00000013411045
+Epoch  21 Loss:  -9.600000143051147
+Epoch  22 Loss:  -10.000000178813934
+Epoch  23 Loss:  -10.400000102818012
+Epoch  24 Loss:  -10.40000019967556
+Epoch  25 Loss:  -10.000000186264515
+Epoch  26 Loss:  -9.600000113248825
+Epoch  27 Loss:  -10.400000125169754
+Epoch  28 Loss:  -9.600000135600567
+Epoch  29 Loss:  -9.600000031292439
+Training time: 9.488195419311523
+val acc:  tensor(0.5000, device='cuda:0')
+Parameter Setting:  6
+{'learning_rate': 0.001, 'num_epochs': 10, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  13.243920505046844
+Epoch  1 Loss:  10.443360596895218
+Epoch  2 Loss:  9.788879543542862
+Epoch  3 Loss:  8.602124363183975
+Epoch  4 Loss:  7.831389904022217
+Epoch  5 Loss:  7.876879006624222
+Epoch  6 Loss:  6.981355637311935
+Epoch  7 Loss:  6.607961922883987
+Epoch  8 Loss:  6.55931356549263
+Epoch  9 Loss:  6.556180119514465
+Training time: 3.265273332595825
+val acc:  tensor(0.7500, device='cuda:0')
+Parameter Setting:  7
+{'learning_rate': 0.001, 'num_epochs': 10, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -10.506578996777534
+Epoch  1 Loss:  -13.456674993038177
+Epoch  2 Loss:  -14.202756702899933
+Epoch  3 Loss:  -15.22134181857109
+Epoch  4 Loss:  -15.851759612560272
+Epoch  5 Loss:  -15.256611347198486
+Epoch  6 Loss:  -15.6549574136734
+Epoch  7 Loss:  -15.89132821559906
+Epoch  8 Loss:  -16.455367505550385
+Epoch  9 Loss:  -16.633246302604675
+Training time: 3.2242701053619385
+val acc:  tensor(0.5000, device='cuda:0')
+Parameter Setting:  8
+{'learning_rate': 0.001, 'num_epochs': 20, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  13.671528071165085
+Epoch  1 Loss:  10.631467133760452
+Epoch  2 Loss:  9.193159103393555
+Epoch  3 Loss:  8.638732254505157
+Epoch  4 Loss:  7.602887153625488
+Epoch  5 Loss:  7.169542372226715
+Epoch  6 Loss:  6.892541080713272
+Epoch  7 Loss:  6.757575571537018
+Epoch  8 Loss:  6.628491103649139
+Epoch  9 Loss:  6.626026153564453
+Epoch  10 Loss:  6.396098494529724
+Epoch  11 Loss:  6.382534950971603
+Epoch  12 Loss:  6.369145721197128
+Epoch  13 Loss:  6.368206053972244
+Epoch  14 Loss:  6.367905020713806
+Epoch  15 Loss:  6.366754531860352
+Epoch  16 Loss:  6.369609773159027
+Epoch  17 Loss:  6.366060525178909
+Epoch  18 Loss:  6.3665280640125275
+Epoch  19 Loss:  6.3698345720767975
+Training time: 6.658713102340698
+val acc:  tensor(0.7000, device='cuda:0')
+Parameter Setting:  9
+{'learning_rate': 0.001, 'num_epochs': 20, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -9.7086983025074
+Epoch  1 Loss:  -10.400000169873238
+Epoch  2 Loss:  -9.600000098347664
+Epoch  3 Loss:  -9.600000068545341
+Epoch  4 Loss:  -10.400000169873238
+Epoch  5 Loss:  -10.400000013411045
+Epoch  6 Loss:  -10.40000019967556
+Epoch  7 Loss:  -10.000000178813934
+Epoch  8 Loss:  -10.400000095367432
+Epoch  9 Loss:  -9.60000017285347
+Epoch  10 Loss:  -10.000000163912773
+Epoch  11 Loss:  -10.400000028312206
+Epoch  12 Loss:  -10.400000125169754
+Epoch  13 Loss:  -10.000000171363354
+Epoch  14 Loss:  -10.400000214576721
+Epoch  15 Loss:  -9.600000210106373
+Epoch  16 Loss:  -10.00000011920929
+Epoch  17 Loss:  -10.400000110268593
+Epoch  18 Loss:  -10.00000011920929
+Epoch  19 Loss:  -10.000000163912773
+Training time: 6.999755144119263
+val acc:  tensor(0.5000, device='cuda:0')
+Parameter Setting:  10
+{'learning_rate': 0.001, 'num_epochs': 30, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  13.635994791984558
+Epoch  1 Loss:  10.85293036699295
+Epoch  2 Loss:  9.841047674417496
+Epoch  3 Loss:  9.852958083152771
+Epoch  4 Loss:  9.195630222558975
+Epoch  5 Loss:  8.300128072500229
+Epoch  6 Loss:  7.798664748668671
+Epoch  7 Loss:  8.33820042014122
+Epoch  8 Loss:  7.075684994459152
+Epoch  9 Loss:  6.7288468182086945
+Epoch  10 Loss:  6.4895515739917755
+Epoch  11 Loss:  6.390541076660156
+Epoch  12 Loss:  6.372955411672592
+Epoch  13 Loss:  6.487659990787506
+Epoch  14 Loss:  6.442028760910034
+Epoch  15 Loss:  6.307250946760178
+Epoch  16 Loss:  6.838242381811142
+Epoch  17 Loss:  9.497297823429108
+Epoch  18 Loss:  8.353900998830795
+Epoch  19 Loss:  6.61351153254509
+Epoch  20 Loss:  6.3100970685482025
+Epoch  21 Loss:  6.2914093136787415
+Epoch  22 Loss:  6.2878172397613525
+Epoch  23 Loss:  6.309580743312836
+Epoch  24 Loss:  6.279108852148056
+Epoch  25 Loss:  6.266985088586807
+Epoch  26 Loss:  6.26700022816658
+Epoch  27 Loss:  6.271664142608643
+Epoch  28 Loss:  6.266515552997589
+Epoch  29 Loss:  6.26711106300354
+Training time: 10.396692276000977
+val acc:  tensor(0.6500, device='cuda:0')
+Parameter Setting:  11
+{'learning_rate': 0.001, 'num_epochs': 30, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -9.989442467689514
+Epoch  1 Loss:  -11.533416628837585
+Epoch  2 Loss:  -12.636887729167938
+Epoch  3 Loss:  -14.849619686603546
+Epoch  4 Loss:  -16.47171464562416
+Epoch  5 Loss:  -18.092504143714905
+Epoch  6 Loss:  -18.428879380226135
+Epoch  7 Loss:  -18.881024718284607
+Epoch  8 Loss:  -19.004188358783722
+Epoch  9 Loss:  -19.229353308677673
+Epoch  10 Loss:  -19.430492043495178
+Epoch  11 Loss:  -19.637143909931183
+Epoch  12 Loss:  -19.71377968788147
+Epoch  13 Loss:  -19.656760215759277
+Epoch  14 Loss:  -19.71573507785797
+Epoch  15 Loss:  -19.89354717731476
+Epoch  16 Loss:  -19.887093245983124
+Epoch  17 Loss:  -19.896965324878693
+Epoch  18 Loss:  -19.89738541841507
+Epoch  19 Loss:  -19.89910715818405
+Epoch  20 Loss:  -19.899269342422485
+Epoch  21 Loss:  -19.899363219738007
+Epoch  22 Loss:  -19.899315237998962
+Epoch  23 Loss:  -19.899346470832825
+Epoch  24 Loss:  -19.899472773075104
+Epoch  25 Loss:  -19.899612486362457
+Epoch  26 Loss:  -19.899657130241394
+Epoch  27 Loss:  -19.899763107299805
+Epoch  28 Loss:  -19.8996462225914
+Epoch  29 Loss:  -19.899731874465942
+Training time: 10.363170862197876
+val acc:  tensor(0.6000, device='cuda:0')
+Parameter Setting:  12
+{'learning_rate': 0.0001, 'num_epochs': 10, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  13.453681528568268
+Epoch  1 Loss:  11.4856615960598
+Epoch  2 Loss:  10.705304741859436
+Epoch  3 Loss:  10.939388483762741
+Epoch  4 Loss:  9.69030675292015
+Epoch  5 Loss:  9.456131994724274
+Epoch  6 Loss:  9.155956268310547
+Epoch  7 Loss:  9.18941581249237
+Epoch  8 Loss:  8.722096890211105
+Epoch  9 Loss:  8.143218070268631
+Training time: 3.6347925662994385
+val acc:  tensor(0.8000, device='cuda:0')
+Parameter Setting:  13
+{'learning_rate': 0.0001, 'num_epochs': 10, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -10.309286147356033
+Epoch  1 Loss:  -12.405808240175247
+Epoch  2 Loss:  -14.096700698137283
+Epoch  3 Loss:  -14.497679561376572
+Epoch  4 Loss:  -15.606967747211456
+Epoch  5 Loss:  -15.760261118412018
+Epoch  6 Loss:  -15.971307933330536
+Epoch  7 Loss:  -16.800314009189606
+Epoch  8 Loss:  -17.604349374771118
+Epoch  9 Loss:  -18.050999343395233
+Training time: 3.4837377071380615
+val acc:  tensor(0.6500, device='cuda:0')
+Parameter Setting:  14
+{'learning_rate': 0.0001, 'num_epochs': 20, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  13.399530172348022
+Epoch  1 Loss:  11.286994576454163
+Epoch  2 Loss:  10.772590041160583
+Epoch  3 Loss:  10.131662398576736
+Epoch  4 Loss:  9.685448825359344
+Epoch  5 Loss:  8.7027527987957
+Epoch  6 Loss:  8.315085798501968
+Epoch  7 Loss:  8.008646100759506
+Epoch  8 Loss:  7.704177498817444
+Epoch  9 Loss:  7.434335827827454
+Epoch  10 Loss:  7.123487144708633
+Epoch  11 Loss:  7.010137230157852
+Epoch  12 Loss:  7.150311082601547
+Epoch  13 Loss:  6.731134623289108
+Epoch  14 Loss:  6.621781021356583
+Epoch  15 Loss:  6.607704788446426
+Epoch  16 Loss:  6.501038134098053
+Epoch  17 Loss:  6.4935223162174225
+Epoch  18 Loss:  6.474126636981964
+Epoch  19 Loss:  6.413919687271118
+Training time: 6.947155475616455
+val acc:  tensor(0.6500, device='cuda:0')
+Parameter Setting:  15
+{'learning_rate': 0.0001, 'num_epochs': 20, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -10.503595560789108
+Epoch  1 Loss:  -11.945762127637863
+Epoch  2 Loss:  -14.420140713453293
+Epoch  3 Loss:  -15.4273481965065
+Epoch  4 Loss:  -16.603623688220978
+Epoch  5 Loss:  -17.248687982559204
+Epoch  6 Loss:  -17.25022953748703
+Epoch  7 Loss:  -17.786178052425385
+Epoch  8 Loss:  -17.292454302310944
+Epoch  9 Loss:  -18.739944994449615
+Epoch  10 Loss:  -18.99126660823822
+Epoch  11 Loss:  -19.279573500156403
+Epoch  12 Loss:  -19.39484930038452
+Epoch  13 Loss:  -19.274711906909943
+Epoch  14 Loss:  -19.582840502262115
+Epoch  15 Loss:  -19.569629788398743
+Epoch  16 Loss:  -19.64576482772827
+Epoch  17 Loss:  -19.679652988910675
+Epoch  18 Loss:  -19.68897408246994
+Epoch  19 Loss:  -19.727802753448486
+Training time: 7.028281927108765
+val acc:  tensor(0.6000, device='cuda:0')
+Parameter Setting:  16
+{'learning_rate': 0.0001, 'num_epochs': 30, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  13.30544638633728
+Epoch  1 Loss:  11.712528586387634
+Epoch  2 Loss:  11.384424299001694
+Epoch  3 Loss:  10.462153911590576
+Epoch  4 Loss:  9.617478609085083
+Epoch  5 Loss:  9.311746031045914
+Epoch  6 Loss:  9.057440012693405
+Epoch  7 Loss:  8.654776751995087
+Epoch  8 Loss:  7.915099859237671
+Epoch  9 Loss:  7.6119623482227325
+Epoch  10 Loss:  7.502617359161377
+Epoch  11 Loss:  7.365374267101288
+Epoch  12 Loss:  6.973044186830521
+Epoch  13 Loss:  7.355885416269302
+Epoch  14 Loss:  7.185602426528931
+Epoch  15 Loss:  7.2395844757556915
+Epoch  16 Loss:  6.5986728966236115
+Epoch  17 Loss:  6.447322100400925
+Epoch  18 Loss:  6.471679747104645
+Epoch  19 Loss:  6.398984044790268
+Epoch  20 Loss:  6.346308082342148
+Epoch  21 Loss:  6.3355200588703156
+Epoch  22 Loss:  6.337249934673309
+Epoch  23 Loss:  6.354329586029053
+Epoch  24 Loss:  6.334794372320175
+Epoch  25 Loss:  6.309307336807251
+Epoch  26 Loss:  6.300876617431641
+Epoch  27 Loss:  6.3041695058345795
+Epoch  28 Loss:  6.297085404396057
+Epoch  29 Loss:  6.292817831039429
+Training time: 10.915120363235474
+val acc:  tensor(0.5500, device='cuda:0')
+Parameter Setting:  17
+{'learning_rate': 0.0001, 'num_epochs': 30, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -10.533575415611267
+Epoch  1 Loss:  -11.912467211484909
+Epoch  2 Loss:  -13.135276049375534
+Epoch  3 Loss:  -13.851046800613403
+Epoch  4 Loss:  -13.153952687978745
+Epoch  5 Loss:  -15.168439984321594
+Epoch  6 Loss:  -15.495968639850616
+Epoch  7 Loss:  -16.03944581747055
+Epoch  8 Loss:  -15.886262208223343
+Epoch  9 Loss:  -16.757551729679108
+Epoch  10 Loss:  -16.724074959754944
+Epoch  11 Loss:  -17.026001632213593
+Epoch  12 Loss:  -17.724212110042572
+Epoch  13 Loss:  -17.573496282100677
+Epoch  14 Loss:  -17.997297823429108
+Epoch  15 Loss:  -18.53341841697693
+Epoch  16 Loss:  -18.67050713300705
+Epoch  17 Loss:  -18.84706747531891
+Epoch  18 Loss:  -18.670735239982605
+Epoch  19 Loss:  -19.088312685489655
+Epoch  20 Loss:  -19.22042679786682
+Epoch  21 Loss:  -18.980526626110077
+Epoch  22 Loss:  -19.318796515464783
+Epoch  23 Loss:  -19.50488442182541
+Epoch  24 Loss:  -19.58055478334427
+Epoch  25 Loss:  -19.60069304704666
+Epoch  26 Loss:  -19.630079090595245
+Epoch  27 Loss:  -19.655904352664948
+Epoch  28 Loss:  -19.52855294942856
+Epoch  29 Loss:  -19.511650502681732
+Training time: 11.980499267578125
+val acc:  tensor(0.5500, device='cuda:0')
+Parameter Setting:  18
+{'learning_rate': 1e-05, 'num_epochs': 10, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  13.660889506340027
+Epoch  1 Loss:  13.253329515457153
+Epoch  2 Loss:  12.882028758525848
+Epoch  3 Loss:  12.478753387928009
+Epoch  4 Loss:  12.229972183704376
+Epoch  5 Loss:  12.067205548286438
+Epoch  6 Loss:  11.63812267780304
+Epoch  7 Loss:  11.66172480583191
+Epoch  8 Loss:  11.363199055194855
+Epoch  9 Loss:  11.039590626955032
+Training time: 3.8167991638183594
+val acc:  tensor(0.7000, device='cuda:0')
+Parameter Setting:  19
+{'learning_rate': 1e-05, 'num_epochs': 10, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -10.074752390384674
+Epoch  1 Loss:  -10.314698576927185
+Epoch  2 Loss:  -10.640530347824097
+Epoch  3 Loss:  -10.914513647556305
+Epoch  4 Loss:  -11.323815286159515
+Epoch  5 Loss:  -11.777716338634491
+Epoch  6 Loss:  -12.14132171869278
+Epoch  7 Loss:  -12.253332614898682
+Epoch  8 Loss:  -12.612705290317535
+Epoch  9 Loss:  -12.645310521125793
+Training time: 4.016464948654175
+val acc:  tensor(0.6000, device='cuda:0')
+Parameter Setting:  20
+{'learning_rate': 1e-05, 'num_epochs': 20, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  13.820786535739899
+Epoch  1 Loss:  13.533311367034912
+Epoch  2 Loss:  13.240618526935577
+Epoch  3 Loss:  12.80027824640274
+Epoch  4 Loss:  12.613736748695374
+Epoch  5 Loss:  12.28345787525177
+Epoch  6 Loss:  12.108644187450409
+Epoch  7 Loss:  11.796842753887177
+Epoch  8 Loss:  11.423618376255035
+Epoch  9 Loss:  11.3212069272995
+Epoch  10 Loss:  11.15899509191513
+Epoch  11 Loss:  11.000351399183273
+Epoch  12 Loss:  10.993636816740036
+Epoch  13 Loss:  10.634892016649246
+Epoch  14 Loss:  10.384375154972076
+Epoch  15 Loss:  10.394663900136948
+Epoch  16 Loss:  10.374884843826294
+Epoch  17 Loss:  10.1522136926651
+Epoch  18 Loss:  9.95684215426445
+Epoch  19 Loss:  9.92546683549881
+Training time: 7.869495391845703
+val acc:  tensor(0.7500, device='cuda:0')
+Parameter Setting:  21
+{'learning_rate': 1e-05, 'num_epochs': 20, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -10.063180565834045
+Epoch  1 Loss:  -10.24170133471489
+Epoch  2 Loss:  -10.357628643512726
+Epoch  3 Loss:  -10.489339590072632
+Epoch  4 Loss:  -10.798957079648972
+Epoch  5 Loss:  -11.052673369646072
+Epoch  6 Loss:  -11.463808059692383
+Epoch  7 Loss:  -11.60413509607315
+Epoch  8 Loss:  -11.88564258813858
+Epoch  9 Loss:  -11.984133660793304
+Epoch  10 Loss:  -12.405813455581665
+Epoch  11 Loss:  -12.764884948730469
+Epoch  12 Loss:  -12.830577909946442
+Epoch  13 Loss:  -13.247109562158585
+Epoch  14 Loss:  -13.267116904258728
+Epoch  15 Loss:  -13.693065643310547
+Epoch  16 Loss:  -13.81759887933731
+Epoch  17 Loss:  -14.052412271499634
+Epoch  18 Loss:  -14.146760165691376
+Epoch  19 Loss:  -14.127206057310104
+Training time: 8.02356219291687
+val acc:  tensor(0.6000, device='cuda:0')
+Parameter Setting:  22
+{'learning_rate': 1e-05, 'num_epochs': 30, 'criterion': CrossEntropyLoss()}
+Epoch  0 Loss:  13.889264464378357
+Epoch  1 Loss:  13.742538154125214
+Epoch  2 Loss:  13.67557179927826
+Epoch  3 Loss:  13.495301067829132
+Epoch  4 Loss:  13.377464294433594
+Epoch  5 Loss:  13.18258410692215
+Epoch  6 Loss:  13.27757614850998
+Epoch  7 Loss:  13.026747643947601
+Epoch  8 Loss:  12.860511243343353
+Epoch  9 Loss:  12.824417173862457
+Epoch  10 Loss:  12.965410888195038
+Epoch  11 Loss:  12.864090204238892
+Epoch  12 Loss:  12.528368890285492
+Epoch  13 Loss:  12.435762345790863
+Epoch  14 Loss:  12.617137670516968
+Epoch  15 Loss:  12.396337687969208
+Epoch  16 Loss:  12.198961198329926
+Epoch  17 Loss:  12.43213039636612
+Epoch  18 Loss:  12.247009217739105
+Epoch  19 Loss:  12.176885068416595
+Epoch  20 Loss:  11.930701076984406
+Epoch  21 Loss:  11.802648365497589
+Epoch  22 Loss:  11.596856862306595
+Epoch  23 Loss:  11.801699727773666
+Epoch  24 Loss:  11.63253903388977
+Epoch  25 Loss:  11.235245674848557
+Epoch  26 Loss:  11.068189650774002
+Epoch  27 Loss:  11.141729950904846
+Epoch  28 Loss:  10.922439157962799
+Epoch  29 Loss:  11.063674449920654
+Training time: 10.948630809783936
+val acc:  tensor(0.7500, device='cuda:0')
+Parameter Setting:  23
+{'learning_rate': 1e-05, 'num_epochs': 30, 'criterion': NLLLoss()}
+Epoch  0 Loss:  -10.058756232261658
+Epoch  1 Loss:  -10.40657526254654
+Epoch  2 Loss:  -10.73102593421936
+Epoch  3 Loss:  -10.999583095312119
+Epoch  4 Loss:  -11.372822225093842
+Epoch  5 Loss:  -11.618065923452377
+Epoch  6 Loss:  -11.817031145095825
+Epoch  7 Loss:  -12.120607823133469
+Epoch  8 Loss:  -12.46646898984909
+Epoch  9 Loss:  -12.69762247800827
+Epoch  10 Loss:  -12.943148732185364
+Epoch  11 Loss:  -12.901237547397614
+Epoch  12 Loss:  -13.522294461727142
+Epoch  13 Loss:  -13.441456079483032
+Epoch  14 Loss:  -13.963285267353058
+Epoch  15 Loss:  -14.187037885189056
+Epoch  16 Loss:  -14.28323882818222
+Epoch  17 Loss:  -14.670839011669159
+Epoch  18 Loss:  -14.824964463710785
+Epoch  19 Loss:  -14.829898536205292
+Epoch  20 Loss:  -14.560781747102737
+Epoch  21 Loss:  -15.247837364673615
+Epoch  22 Loss:  -15.273883640766144
+Epoch  23 Loss:  -15.060844779014587
+Epoch  24 Loss:  -15.006954312324524
+Epoch  25 Loss:  -15.233121633529663
+Epoch  26 Loss:  -14.985860377550125
+Epoch  27 Loss:  -15.695664286613464
+Epoch  28 Loss:  -15.657808661460876
+Epoch  29 Loss:  -15.826575338840485
+Training time: 11.002433061599731
+val acc:  tensor(0.7000, device='cuda:0')
+Best Loss Record [13.453681528568268, 11.4856615960598, 10.705304741859436, 10.939388483762741, 9.69030675292015, 9.456131994724274, 9.155956268310547, 9.18941581249237, 8.722096890211105, 8.143218070268631]
+Best Parameter Setting {'learning_rate': 0.0001, 'num_epochs': 10, 'criterion': CrossEntropyLoss()}
+Test Prob: tensor([[0.0586, 0.9414],
+        [0.8878, 0.1122],
+        [0.1480, 0.8520],
+        [0.6645, 0.3355],
+        [0.0359, 0.9641],
+        [0.4870, 0.5130],
+        [0.9887, 0.0113],
+        [0.6542, 0.3458],
+        [0.6287, 0.3713],
+        [0.9877, 0.0123]], device='cuda:0', grad_fn=<SoftmaxBackward0>)
+Test Result: [1 0 1 0 1 1 0 0 0 0]
+Accuracy Result: 0.7

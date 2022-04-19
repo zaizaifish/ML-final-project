@@ -1,0 +1,56 @@
+Parameter Setting:  0
+{'C': 0.1, 'kernel': 'linear', 'degree': 3}
+Training time: 3.21
+Parameter Setting:  1
+{'C': 0.1, 'kernel': 'linear', 'degree': 5}
+Training time: 3.25
+Parameter Setting:  2
+{'C': 0.1, 'kernel': 'poly', 'degree': 3}
+Training time: 3.47
+Parameter Setting:  3
+{'C': 0.1, 'kernel': 'poly', 'degree': 5}
+Training time: 4.22
+Parameter Setting:  4
+{'C': 0.1, 'kernel': 'rbf', 'degree': 3}
+Training time: 4.21
+Parameter Setting:  5
+{'C': 0.1, 'kernel': 'rbf', 'degree': 5}
+Training time: 4.49
+Parameter Setting:  6
+{'C': 0.01, 'kernel': 'linear', 'degree': 3}
+Training time: 4.37
+Parameter Setting:  7
+{'C': 0.01, 'kernel': 'linear', 'degree': 5}
+Training time: 4.55
+Parameter Setting:  8
+{'C': 0.01, 'kernel': 'poly', 'degree': 3}
+Training time: 4.7
+Parameter Setting:  9
+{'C': 0.01, 'kernel': 'poly', 'degree': 5}
+Training time: 4.6
+Parameter Setting:  10
+{'C': 0.01, 'kernel': 'rbf', 'degree': 3}
+Training time: 4.57
+Parameter Setting:  11
+{'C': 0.01, 'kernel': 'rbf', 'degree': 5}
+Training time: 3.45
+Parameter Setting:  12
+{'C': 0.001, 'kernel': 'linear', 'degree': 3}
+Training time: 3.22
+Parameter Setting:  13
+{'C': 0.001, 'kernel': 'linear', 'degree': 5}
+Training time: 3.22
+Parameter Setting:  14
+{'C': 0.001, 'kernel': 'poly', 'degree': 3}
+Training time: 3.33
+Parameter Setting:  15
+{'C': 0.001, 'kernel': 'poly', 'degree': 5}
+Training time: 3.32
+Parameter Setting:  16
+{'C': 0.001, 'kernel': 'rbf', 'degree': 3}
+Training time: 3.31
+Parameter Setting:  17
+{'C': 0.001, 'kernel': 'rbf', 'degree': 5}
+Training time: 3.36
+Test Result: [1 0 1 0 1 0 0 0 0 0]
+Accuracy Result: 0.6
