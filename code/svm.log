@@ -1,56 +1,75 @@
 Parameter Setting:  0
 {'C': 0.1, 'kernel': 'linear', 'degree': 3}
-Training time: 3.21
+Training time: 4.0
+Val accuracy: 1.0
 Parameter Setting:  1
 {'C': 0.1, 'kernel': 'linear', 'degree': 5}
-Training time: 3.25
+Training time: 4.06
+Val accuracy: 1.0
 Parameter Setting:  2
 {'C': 0.1, 'kernel': 'poly', 'degree': 3}
-Training time: 3.47
+Training time: 4.04
+Val accuracy: 0.61
 Parameter Setting:  3
 {'C': 0.1, 'kernel': 'poly', 'degree': 5}
-Training time: 4.22
+Training time: 4.15
+Val accuracy: 0.6
 Parameter Setting:  4
 {'C': 0.1, 'kernel': 'rbf', 'degree': 3}
-Training time: 4.21
+Training time: 4.26
+Val accuracy: 0.79
 Parameter Setting:  5
 {'C': 0.1, 'kernel': 'rbf', 'degree': 5}
-Training time: 4.49
+Training time: 4.2
+Val accuracy: 0.79
 Parameter Setting:  6
 {'C': 0.01, 'kernel': 'linear', 'degree': 3}
-Training time: 4.37
+Training time: 3.97
+Val accuracy: 1.0
 Parameter Setting:  7
 {'C': 0.01, 'kernel': 'linear', 'degree': 5}
-Training time: 4.55
+Training time: 4.04
+Val accuracy: 1.0
 Parameter Setting:  8
 {'C': 0.01, 'kernel': 'poly', 'degree': 3}
-Training time: 4.7
+Training time: 4.26
+Val accuracy: 0.54
 Parameter Setting:  9
 {'C': 0.01, 'kernel': 'poly', 'degree': 5}
-Training time: 4.6
+Training time: 4.13
+Val accuracy: 0.52
 Parameter Setting:  10
 {'C': 0.01, 'kernel': 'rbf', 'degree': 3}
-Training time: 4.57
+Training time: 4.32
+Val accuracy: 0.79
 Parameter Setting:  11
 {'C': 0.01, 'kernel': 'rbf', 'degree': 5}
-Training time: 3.45
+Training time: 4.23
+Val accuracy: 0.79
 Parameter Setting:  12
 {'C': 0.001, 'kernel': 'linear', 'degree': 3}
-Training time: 3.22
+Training time: 4.3
+Val accuracy: 1.0
 Parameter Setting:  13
 {'C': 0.001, 'kernel': 'linear', 'degree': 5}
-Training time: 3.22
+Training time: 4.34
+Val accuracy: 1.0
 Parameter Setting:  14
 {'C': 0.001, 'kernel': 'poly', 'degree': 3}
-Training time: 3.33
+Training time: 4.2
+Val accuracy: 0.54
 Parameter Setting:  15
 {'C': 0.001, 'kernel': 'poly', 'degree': 5}
-Training time: 3.32
+Training time: 4.16
+Val accuracy: 0.52
 Parameter Setting:  16
 {'C': 0.001, 'kernel': 'rbf', 'degree': 3}
-Training time: 3.31
+Training time: 4.28
+Val accuracy: 0.79
 Parameter Setting:  17
 {'C': 0.001, 'kernel': 'rbf', 'degree': 5}
-Training time: 3.36
+Training time: 4.52
+Val accuracy: 0.79
+Best parameter:  {'C': 0.1, 'kernel': 'linear', 'degree': 3}
 Test Result: [1 0 1 0 1 0 0 0 0 0]
 Accuracy Result: 0.6

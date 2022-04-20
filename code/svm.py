@@ -31,7 +31,7 @@ def SVM(train, val, test, parameters):
     
     
     parameters = [dict(zip(parameters, v)) for v in product(*parameters.values())]
-    best_model, best_acc = None, 0
+    best_model, best_acc, best_parameter = None, 0, {}
     for index, cur_dict in enumerate(parameters):
         print("Parameter Setting: ", index)
         print(cur_dict)
@@ -50,9 +50,12 @@ def SVM(train, val, test, parameters):
         # val 
         y_val_pred = model.predict(x_val)
         result_val = 1 - np.sum(np.abs(y_val - y_val_pred)) / y_val.shape[0]
+        print("Val accuracy: {}".format(round(result_val, 2)))
         if result_val > best_acc:
             best_acc = result_val
             best_model = copy.deepcopy(model)
+            best_parameter = cur_dict
     # test
+    print("Best parameter: ", best_parameter)
     y_test_pred = best_model.predict(test)
     return y_test_pred
